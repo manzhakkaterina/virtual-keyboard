@@ -1,0 +1,64 @@
+#keyboard {
+	display: block;
+	border: 2px solid black;
+	padding: 5px;
+	
+}
+
+#keyboard::after {
+	content: "";
+	display: block;
+	clear: both;
+	align-content: center;
+}
+
+.k-key {
+	display: flex;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #3a424e;
+	margin: 4px;
+	padding: 3px;
+	float: left;
+	background: #3a424e;
+	color: #ffffff;
+	align-items: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-size: 24px;
+/* 	text-transform: uppercase; */
+	font-weight: bold;
+	justify-content: center;
+	border-radius: 10px;
+	text-transform: uppercase;
+}
+
+.k-key-gray {
+	display: flex;
+	width: 80px;
+	height: 50px;
+	border: 1px solid #1c232e;
+	margin: 4px;
+	padding: 3px;
+	float: left;
+	background: #1c232e;
+	color: #808080;
+	align-items: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-size: 24px;
+/* 	text-transform: uppercase; */
+	font-weight: bold;
+	justify-content: center;
+	border-radius: 10px;
+}
+
+.clearfix {
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.active {
+	background: #5571ee;
+}
